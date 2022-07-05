@@ -1,1 +1,1 @@
-(()=>{console.log("hello");for(let l=0;l<10;l++)console.log("hello")})();
+(()=>{"use strict";const e={nav:document.getElementById("nav")};let t=!1;document.querySelector(".hamburger-btn").addEventListener("click",(()=>{t=!t,!0===t?e.nav.classList.remove("inactive-nav"):!1===t&&e.nav.classList.add("inactive-nav")}))})();

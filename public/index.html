@@ -7,19 +7,19 @@
     <title>Todo List</title>
 
     <link rel="stylesheet" href="../src/style.css" class="rel">
-    <script type="module" src="../src/index.js"></script>
+    <script type="module" defer src="../dist/main.js"></script>
 </head>
 <body>
     <header>
-        <h1>ToDo-le</h1>
+        <h1 class="header-h1">Todo-li</h1>
         <button class="hamburger-btn"> &#9776; </button>
     </header>
-    <nav>
-        <ul class="menu">
-            <li class="inbox">Inbox</li>
-            <li class="today">Today</li>
-            <li class="this-week">This week</li>
-        </ul>
+    <nav id="nav">
+        <div class="nav-btns">
+            <button class="nav-btn">&#10079; Inbox</button>
+            <button class="nav-btn">&#10064; Today</button>
+            <button class="nav-btn">&#10066; This week</button>
+        </div>
     </nav>
 
     
