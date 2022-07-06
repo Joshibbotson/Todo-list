@@ -20,8 +20,8 @@ header {
     align-items: center;
     justify-content: center;
     padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 
     background-color: var(--primary-colour);
 }
@@ -29,7 +29,7 @@ header {
 .header-h1 {
     margin-right: auto;
     margin-left: 2rem;
-    font-size: 4em;
+    font-size: 3em;
     font-family: var(--primary-font);
     color: var(--tertiary-colour);
 }
@@ -76,6 +76,4 @@ nav {
     font-weight: 800;
 }
 
-h2 {
-    text-align: left;
-}
+
