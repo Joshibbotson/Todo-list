@@ -2,7 +2,7 @@ import dom from './dom'
 
 
 export const addTask = {
-    title: dom.titleInput,
+    title: dom.titleInput.value,
     }
 
 export function Task (title) {

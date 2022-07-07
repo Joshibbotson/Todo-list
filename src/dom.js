@@ -4,7 +4,7 @@ const dom = {
     todayBtn : document.getElementById('today'),
     thisWeekBtn : document.getElementById('thisWeek'),
     addTaskBtn : document.getElementById('addTaskBtn'),
-    titleInput : document.getElementById('titleInput').value,
+    titleInput : document.getElementById('titleInput'),
 }
 
 export {dom}

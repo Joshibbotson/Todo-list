@@ -32,3 +32,7 @@ currentArr = (whatever user clicked on)
 
 
 <!-- Ensuring array items are swapped into different arrays and removed from their current array based on user choice/ date of due time -->
+- 'add date' button should take the currently selected index of whatever array it's in, and push in a date into that index object. and update the DOM
+
+<!-- Delete button and 'tick' button should both refer to a delete function -->
+- the function should when called pop out the object from it's array. and update the DOM
