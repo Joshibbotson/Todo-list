@@ -1,4 +1,4 @@
-const dom = {
+export let dom = {
     nav : document.getElementById('nav'),
     inboxBtn : document.getElementById('inbox'),
     todayBtn : document.getElementById('today'),
@@ -7,4 +7,4 @@ const dom = {
     titleInput : document.getElementById('titleInput'),
 }
 
-export {dom}
+

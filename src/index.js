@@ -1,8 +1,8 @@
 import { dom } from "./dom"
 import { addTask, Task, addTasktoArr} from './addtask'
 
-let activeArr = inboxArr
 const inboxArr = []
+export let activeArr = inboxArr
 
 let active = true
 const hamburgerBtn = document.querySelector(".hamburger-btn").addEventListener('click', () =>{
@@ -16,5 +16,5 @@ const hamburgerBtn = document.querySelector(".hamburger-btn").addEventListener('
     
 })
 
-dom.addTaskBtn.addEventListener('click', addTasktoArr(activeArr))
+dom.addTaskBtn.addEventListener('click', addTasktoArr)
 
