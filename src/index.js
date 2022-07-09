@@ -1,10 +1,13 @@
 import { dom, highlightActiveBtn } from "./dom"
 import { addTask, Task, addTasktoArr} from './addtask'
 
-const inboxArr = []
+export const inboxArr = []
+export let todayArr = []
+export let thisWeekArr = []
 export let activeArr = inboxArr
 
 let active = true
+
 const hamburgerBtn = document.querySelector(".hamburger-btn").addEventListener('click', () =>{
     active = !active
     if (active === true){
