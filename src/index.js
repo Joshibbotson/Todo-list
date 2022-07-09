@@ -1,4 +1,4 @@
-import { dom } from "./dom"
+import { dom, highlightActiveBtn } from "./dom"
 import { addTask, Task, addTasktoArr} from './addtask'
 
 const inboxArr = []
@@ -9,6 +9,7 @@ const hamburgerBtn = document.querySelector(".hamburger-btn").addEventListener('
     active = !active
     if (active === true){
         dom.nav.classList.remove('inactive-nav')
+
     }
     else if (active === false){
         dom.nav.classList.add('inactive-nav')
